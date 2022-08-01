@@ -6,7 +6,7 @@ public class JavaVariableNames {
         int money = 10;
         int oneHundred = 100;
         int notBack = 1000;
-        int _underscore = 10000;
+        int underscore = 10000;
         int csharp = 100000;
         int star = 1000000;
         int badExampleOfVarName = 1000000;
