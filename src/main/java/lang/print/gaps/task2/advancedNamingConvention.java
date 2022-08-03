@@ -1,20 +1,22 @@
 package lang.print.gaps.task2;
 
-public class AdvancedNamingConvention {
-    public static final int adultAge = 18;
+public class advancedNamingConvention {
+    private static final int adultAge = 18;
 
     private int age;
     private int phoneNumber;
 
     void callToFriend() {
         //some code
+        System.out.println("Friend");
     }
 
     void callByNumber(int Number) {
         //some code
+        System.out.println("Phone number");
     }
 
-    public AdvancedNamingConvention(int age, int phoneNumber) {
+    public advancedNamingConvention(int age, int phoneNumber) {
         this.age = age;
         this.phoneNumber = phoneNumber;
     }
@@ -37,7 +39,7 @@ public class AdvancedNamingConvention {
 
     @Override
     public String toString() {
-        return "AdvancedNamingConvention{" +
+        return "advancedNamingConvention{" +
                 "age=" + age +
                 ", phoneNumber=" + phoneNumber +
                 '}';
